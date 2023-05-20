@@ -2,7 +2,7 @@
  <title>DROP TABLE IF EXISTS Impostor_Syndrome;</title>
  <style>text{fill:#333;font-family:monospace;font-size:12px}@media(prefers-color-scheme:dark){text{fill: #ccc}}</style>
  <path id="path">
-		<animate attributeName="d" from="m0,0 h0" to="m0,0 h600" dur="10s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+		<animate attributeName="d" from="m0,0 h0" to="m0,0 h600" dur="10s" begin="0s" repeatCount="indefinite"/>
 	</path>
 	<text>
 		<textPath href="#path">DROP TABLE IF EXISTS Impostor_Syndrome;</textPath>

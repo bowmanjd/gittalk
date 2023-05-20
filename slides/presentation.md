@@ -64,7 +64,7 @@ End of overwrought metaphor <!-- .element: class="r-fit-text" -->
 
 ---
 
-![vscode logo](assets/vscode.svg) <!-- .element: class="hero" -->
+![VS Code logo](assets/vscode.svg) <!-- .element: class="hero" -->
 
 |||
 
@@ -88,6 +88,28 @@ git add .
 git commit -m "I added something"
 git push
 ```
+
+---
+
+![git does not equal GitHub](assets/git-not-github.svg) <!-- .element: class="hero" -->
+
+---
+
+![VS Code logo](assets/vscode.svg) <!-- .element: class="hero" -->
+
+---
+
+## VS Code extensions for git
+
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=github.remotehub)
+
+What git-related extensions do you recommend?
+
+---
+
+<!-- .slide: data-background-video="assets/vscode-extensions.mkv"  -->
 
 ---
 
