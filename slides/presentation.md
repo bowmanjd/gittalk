@@ -18,6 +18,12 @@ Welcome. I am Jonathan Bowman. I enjoy collaboration, sharing, and code re-use, 
 
 ---
 
+## gittalk.bowmanjd.com
+
+![QR code](assets/qrcode.svg) <!-- .element: class="hero" -->
+
+---
+
 ## Two git repos:
 
 - github.com/Cargas/playground <!-- .element: class="fragment" -->
@@ -74,7 +80,7 @@ In software, we have “staging” and more  <!-- .element: class="darktext" -->
 
 |||
 
-## Imagine you are a home stager
+## Imagine you are a stager
 
 - moving couches, tables, napkins, lamps... (writing code) <!-- .element: class="fragment" -->
 - Deciding when the furniture is where you want it (staging) <!-- .element: class="fragment" -->
