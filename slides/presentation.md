@@ -184,7 +184,7 @@ Here are three VS Code extensions I recommend for using git.
 
 |||
 
-<!-- .slide: data-background-video="assets/vscode-extensions.mp4"  -->
+<!-- .slide: data-background-video="assets/vscode-extensions.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 ---
 
@@ -216,24 +216,27 @@ The shish kebaab (three dot) menu is another source of git commands.
 
 ---
 
-## git clone
+## git clone <!-- .element: class="fragment fade-out" -->
 
-<!-- .slide: data-background-video="assets/vscode-clone.mp4"  -->
-
-|||
-
-## git pull
+<!-- .slide: data-background-video="assets/vscode-clone.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 |||
 
-## Stage changes (git add)
+## git pull <!-- .element: class="fragment fade-out" -->
+
+<!-- .slide: data-background-video="assets/vscode-pull.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 |||
 
-## git commit
+## Stage changes (git add) <!-- .element: class="fragment fade-out" -->
 
-- Commit & Push
-- Commit & Sync
+<!-- .slide: data-background-video="assets/vscode-add.mp4" data-background-video-loop="true" data-background-size="contain" -->
+
+|||
+
+## git commit <!-- .element: class="fragment fade-out" -->
+
+<!-- .slide: data-background-video="assets/vscode-commit.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 |||
 
@@ -270,6 +273,10 @@ Keep your lines short
 ## This is a merge conflict waiting to happen
 
 <code>SELECT bEntity, Name, FirstName FROM bEntity WHERE bEntityID = 123456 AND bDivisionID = 2</code>
+
+Notes:
+
+Note the error in the field name
 
 |||
 
@@ -313,11 +320,13 @@ Branching is a way you can, in the same repository, create a fork (a copy) of th
 
 |||
 
-<!-- .slide: data-background-video="assets/vscode-pull-request.mp4"  -->
+<!-- .slide: data-background-video="assets/vscode-pull-request.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 ---
 
 EnergyScripts <!-- .element: class="r-fit-text" -->
+
+<!-- .slide: data-background-video="assets/vscode-clone-energyscripts.mp4" data-background-video-loop="true" data-background-size="contain" -->
 
 Notes:
 
@@ -327,13 +336,39 @@ In Energy, we desire a familiar place where we can store code for reference and 
 
 Articles related to EnergyScripts
 
-- [an article link]()
+- [Guide: Using VS Code to Contribute to the EnergyScripts GitHub Repository](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/15894754096013)
+- [Checking a Script Into the EnergyScripts Repo - From Start to Finish](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493)
+
+Note:
+
+The first link is the umbrella article that includes links to many others.
 
 |||
 
 Start with a Zendesk article
 
+(Stop short of publishing your article)
+
 |||
+
+Navigate in VS Code to the EnergyScripts repo
+
+(Clone it if you have not yet)
+
+|||
+
+Find a folder relevant to your script
+
+![Navigate to folder](assets/energyscripts-folder.png)
+
+or create one
+
+|||
+
+## Use Zendesk Knowledgebase categories as folder
+
+![Zendesk categories](assets/zd-categories.png)
+
 
 ## Place an informative header at the top of the file
 
