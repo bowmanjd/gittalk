@@ -8,6 +8,16 @@ Welcome. I am Jonathan Bowman. I enjoy collaboration, sharing, and code re-use, 
 
 ---
 
+## Itinerary
+
+- A git metaphor
+- Unsolicited opinions
+- Standard git operations in VS Code
+- Process for submitting PR to new EnergyScripts repo
+- Discussion
+
+---
+
 ## Two git repos:
 
 - github.com/Cargas/playground <!-- .element: class="fragment" -->
@@ -17,12 +27,13 @@ Welcome. I am Jonathan Bowman. I enjoy collaboration, sharing, and code re-use, 
 
 Notes:
 
-We have to repositories to play with today. The first is for everyone. With the second, we wanted to showcase a particular new thing that Energy is launching internally for code sharing.
+We have two repositories to play with today. The first is for everyone. With the second, we wanted to showcase a particular new thing that Energy is launching internally for code sharing.
 
 |||
 
-## github.com/Cargas/playground Scavenger Hunt
+## Scavenger Hunt
 
+- github.com/Cargas/playground 
 - Fork it
 - Add your name and a comment to the README
 - Add a file or two that seem relevant
@@ -53,7 +64,7 @@ Staging: setting the stage for what will be  <!-- .element: class="darktext r-st
 
 <!-- .slide: data-background-image="assets/dining-room.jpg"  -->
 
-In software, pretty much all we do is “staging”  <!-- .element: class="darktext" -->
+In software, we have “staging” and more  <!-- .element: class="darktext" -->
 
 1. We stage files and changes <!-- .element: class="fragment darktext" -->
 2. We “commit” those changes to the “product” <!-- .element: class="fragment darktext" -->
@@ -160,7 +171,7 @@ Just like Email is not the same as Outlook, and the Web is not the same as Googl
 
 ![VS Code logo](assets/vscode.svg) <!-- .element: class="hero" -->
 
----
+|||
 
 ![Source Control](assets/source-control.svg) <!-- .element: class="hero" -->
 
@@ -168,7 +179,7 @@ Notes:
 
 Source Control is the view you will frequently use in VS Code. Marked by this source control symbol.
 
----
+|||
 
 ## VS Code extensions for git
 
@@ -184,9 +195,9 @@ Here are three VS Code extensions I recommend for using git.
 
 |||
 
-<!-- .slide: data-background-video="assets/vscode-extensions.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-extensions.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
 
----
+|||
 
 It all starts with `F1` <span class="fragment">(or `ctrl-shift-p`)</span>
 
@@ -196,7 +207,7 @@ Notes:
 
 All git commands can be found in the command palette. Type "git" to find them.
 
----
+|||
 
 ## Or the Source Control View
 
@@ -214,29 +225,38 @@ Notes:
 
 The shish kebaab (three dot) menu is another source of git commands.
 
----
+|||
 
 ## git clone <!-- .element: class="fragment fade-out" -->
 
-<!-- .slide: data-background-video="assets/vscode-clone.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-clone.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
 
 |||
 
 ## git pull <!-- .element: class="fragment fade-out" -->
 
-<!-- .slide: data-background-video="assets/vscode-pull.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-pull.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
 
 |||
 
 ## Stage changes (git add) <!-- .element: class="fragment fade-out" -->
 
-<!-- .slide: data-background-video="assets/vscode-add.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-add.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
 
 |||
 
 ## git commit <!-- .element: class="fragment fade-out" -->
 
-<!-- .slide: data-background-video="assets/vscode-commit.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-commit.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
+
+---
+
+## Commit messages
+
+- Commit messages should be
+  - descriptive
+  - long enough but not too long
+  - unique, specific
 
 |||
 
@@ -247,16 +267,7 @@ The shish kebaab (three dot) menu is another source of git commands.
 - That ticket will now keep a link to the code in GitHub
 - Currently only integrated with EnergyScripts repo, but others can be added
 
-|||
-
-## Commit messages
-
-- Commit messages should be
-  - descriptive
-  - long enough but not too long
-  - unique, specific
-
-|||
+---
 
 THE FOLLOWING IS A PUBLIC SERVICE ANNOUNCEMENT
 
@@ -276,7 +287,7 @@ Keep your lines short
 
 Notes:
 
-Note the error in the field name
+89 characters long, but that isn't the point. Should be 91 chars, note the error in the field name. What if someone other than me, or another branch of me, fixes this?
 
 |||
 
@@ -294,13 +305,107 @@ SELECT
 
 ---
 
-The Pull Request
+EnergyScripts <!-- .element: class="r-fit-text fragment fade-out" -->
+
+<!-- .slide: data-background-video="assets/vscode-clone-energyscripts.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
+
+Notes:
+
+In Energy, we desire a familiar place where we can store code for reference and re-use, and collaborate on it there. So a new repo, EnergyScripts has come to be.
+
+|||
+
+Articles related to EnergyScripts
+
+- [Guide: Using VS Code to Contribute to the EnergyScripts GitHub Repository](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/15894754096013)
+- [Checking a Script Into the EnergyScripts Repo - From Start to Finish](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493)
+
+Note:
+
+The first link is the umbrella article that includes links to many others.
+
+|||
+
+## Start with an internal Zendesk Knowledgebase article
+
+![Zendesk Knowledgebase article](assets/zd-article.png)
+
+Notes:
+
+- Stop short of publishing your article
+- Leave script blank for now
+
+|||
+
+Navigate in VS Code to the EnergyScripts repo
+
+(Clone it if you have not yet)
+
+|||
+
+Find a folder relevant to your script
+
+![Navigate to folder](assets/energyscripts-folder.png)
+
+or create one
+
+|||
+
+## Use Zendesk Knowledgebase categories as folder name
+
+![Zendesk categories](assets/zd-categories.png)
+
+|||
+
+## Create file
+
+![New file](assets/energyscripts-new-file.png)
+
+|||
+
+## Place an informative header at the top of the file
+
+- Start typing `header` and then auto-complete using the installed code snippet
+
+![Header template](assets/energyscripts-header-select.png)
+
+|||
+
+## Add code and save, but do not stage yet
+
+```sql
+/*********************** header **********************************************
+** Title: De-duplicate Customers
+** Description:	Merge a set of customers
+** Created By: Jonathan Bowman
+** Created Date: 2023-05-01
+** KB Article: Merge/de-duplicate a set of customers
+** KB URL: https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493
+******************************************************************************/
+
+USE ConversionScripts;
+
+SET ANSI_NULLS ON;
+SET QUOTED_IDENTIFIER ON;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.Merge_If_You_Dare
+AS
+```
+
+|||
+
+## Submit a PR for the file in question
+
+---
+
+The Pull Request <!-- .element: class="r-fit-text" --> 
 
 (PR) <!-- .element: class="fragment" --> 
 
 Notes:
 
-A clever GitHub innovation
+Let's talk briefly about pull requests and what they are. A PR is the cleverest GitHub innovation.
 
 |||
 
@@ -320,71 +425,37 @@ Branching is a way you can, in the same repository, create a fork (a copy) of th
 
 |||
 
-<!-- .slide: data-background-video="assets/vscode-pull-request.mp4" data-background-video-loop="true" data-background-size="contain" -->
+<!-- .slide: data-background-video="assets/vscode-pull-request.mp4" data-background-video-loop="true" data-background-size="contain" data-background-video-muted="true" -->
 
----
+Notes:
+1. Create branch, name it appropriately
+2. Note that you are now on that branch
+3. Stage the file
+4. Write a commit message, with the git-zen link if there is a ticket
+5. Commit & Create Pull Request
+6. Create
+7. You will be prompted to publish the new branch on the remote if you didn't already
+8. Finally, grab the link (the #24 at the end of the demo)
 
-EnergyScripts <!-- .element: class="r-fit-text" -->
+|||
 
-<!-- .slide: data-background-video="assets/vscode-clone-energyscripts.mp4" data-background-video-loop="true" data-background-size="contain" -->
+## Others can review pull requests on GitHub
+
+![Pull Request list](assets/github-pull-request-list.png)
+
+|||
+
+## In VS Code, once approved, merge
+
+![Squash and Merge](assets/vscode-squash-merge.png)
 
 Notes:
 
-In Energy, we desire a familiar place where we can store code for reference and re-use, and collaborate on it there. So a new repo, EnergyScripts has come to be.
+Note the recommended squash and merge.
 
-|||
+---
 
-Articles related to EnergyScripts
-
-- [Guide: Using VS Code to Contribute to the EnergyScripts GitHub Repository](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/15894754096013)
-- [Checking a Script Into the EnergyScripts Repo - From Start to Finish](https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493)
-
-Note:
-
-The first link is the umbrella article that includes links to many others.
-
-|||
-
-Start with a Zendesk article
-
-(Stop short of publishing your article)
-
-|||
-
-Navigate in VS Code to the EnergyScripts repo
-
-(Clone it if you have not yet)
-
-|||
-
-Find a folder relevant to your script
-
-![Navigate to folder](assets/energyscripts-folder.png)
-
-or create one
-
-|||
-
-## Use Zendesk Knowledgebase categories as folder
-
-![Zendesk categories](assets/zd-categories.png)
-
-
-## Place an informative header at the top of the file
-
-```sql
-/*
-*/
-```
-
-|||
-
-## Submit a PR for the file in question
-
-|||
-
-
-<!-- .slide: data-background-video="assets/vscode-datascripts-pull-request.mp4"  -->
+Playground contributions <!-- .element: class="r-fit-text" -->
 
 ---
 
