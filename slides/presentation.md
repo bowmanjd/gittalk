@@ -267,6 +267,10 @@ The shish kebaab (three dot) menu is another source of git commands.
 - That ticket will now keep a link to the code in GitHub
 - Currently only integrated with EnergyScripts repo, but others can be added
 
+|||
+
+![Git-Zen](assets/git-zen.png)
+
 ---
 
 THE FOLLOWING IS A PUBLIC SERVICE ANNOUNCEMENT
@@ -380,7 +384,7 @@ or create one
 ** Created By: Jonathan Bowman
 ** Created Date: 2023-05-01
 ** KB Article: Merge/de-duplicate a set of customers
-** KB URL: https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493
+** KB URL: [https://cargasenergyinternal.cargasenergy.com/hc/en-us/articles/14919373604493]
 ******************************************************************************/
 
 USE ConversionScripts;
@@ -442,6 +446,12 @@ Notes:
 ## Others can review pull requests on GitHub
 
 ![Pull Request list](assets/github-pull-request-list.png)
+
+|||
+
+## Reviews and revisions are _part of the process_
+
+![Critical Review](assets/request-changes.png)
 
 |||
 
