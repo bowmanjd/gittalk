@@ -41,10 +41,12 @@ We have two repositories to play with today. The first is for everyone. With the
 
 - github.com/Cargas/playground 
 - Fork it
+- Create a branch of your own
 - Add your name and a comment to the README
 - Add a file or two that seem relevant
 - Create a pull request
 - Comment on a pull request
+- Request changes on a pull request
 
 Notes:
 
@@ -119,6 +121,7 @@ If you ask git to take a snapshot, it does, and memorizes it for later redo. It 
 - review snapshots (communication)
 - restore snapshots (rewind)
 - share snapshots with others who can even revise them
+- have parallel staging environments (two identical living rooms!)
 
 |||
 
@@ -158,10 +161,10 @@ We write words that make computers do stuff
 
 ```
 git clone git@github.com:Cargas/playground.git
-git pull
 echo something >> README.md
 git add .
 git commit -m "I added something"
+git pull
 git push
 ```
 
