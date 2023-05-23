@@ -1,10 +1,13 @@
-Git/EnergyScripts Lunch and Learn <!-- .element: class="r-fit-text" -->
+# Git/EnergyScripts Lunch and Learn
 
-![git logo](assets/Git-Logo-White.svg) <!-- .element: class="hero" -->
+![git logo](assets/Git-Logo-White.svg) <!-- .element: class="r-stretch" -->
+
+gittalk.bowmanjd.com
+![QR code](assets/qrcode.svg) <!-- .element: class="r-stretch" style="vertical-align: middle" -->
 
 Notes:
 
-Welcome. I am Jonathan Bowman. I enjoy collaboration, sharing, and code re-use, and I am hoping you might as well, because those are the very things we are talking about today.
+Welcome. I am Jonathan Bowman. They asked me to talk about git, so here we are. By the way, this presentation makes no assumptions about your git familiarity. There will be new things for you, and likely a lot of review. Enjoy.
 
 ---
 
@@ -94,7 +97,7 @@ In software, we have “staging” and more  <!-- .element: class="darktext" -->
 
 ## The difficulties
 
-- collaboration is a communication nightmare <!-- .element: class="fragment" -->
+- collaboration presents communication complexities <!-- .element: class="fragment" -->
 - Remembering and redoing are tedious <!-- .element: class="fragment" -->
 - sharing and responsibility aren’t always easy (who did what and why?) <!-- .element: class="fragment" -->
 
@@ -102,7 +105,7 @@ In software, we have “staging” and more  <!-- .element: class="darktext" -->
 
 ## Take staging to the next level
 
-<span class="fragment">With a robot</span> <span class="fragment">and a camera</span>
+<span class="fragment">A robot</span> <span class="fragment">with a camera</span>
 
 ![Robot and Camera](assets/robot-camera.svg)
 
@@ -482,7 +485,12 @@ Discuss <!-- .element: class="r-fit-text" -->
 
 ---
 
-Thank you <!-- .element: class="r-fit-text" -->
+Thank you! <!-- .element: class="r-stretch" -->
+
+![QR code](assets/qrcode.svg) <!-- .element: class="hero" -->
+
+gittalk.bowmanjd.com
+
 
 Notes:
 
