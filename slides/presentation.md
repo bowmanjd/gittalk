@@ -495,3 +495,15 @@ gittalk.bowmanjd.com
 Notes:
 
 Thank you. Questions? Opinions? Good arguments we can have with one another?
+
+---
+
+Questions for Tech Services
+
+1. Findings as we use the EnergyScripts repo...
+1. What other problems might version control solve for our team?
+1. What difficulties and challenges would we encounter if some or all of us pursued a version-control-first paradigm?
+
+Notes:
+
+I am just stirring the pot.
